@@ -1,7 +1,5 @@
-import 'package:reading_tracker_site/shared/ui_helpers.dart';
 import 'package:reading_tracker_site/shared/ui_size_value.dart';
 import 'package:reading_tracker_site/widgets/app_desc_text.dart';
-import 'package:reading_tracker_site/widgets/app_preview_image.dart';
 import 'package:flutter/material.dart';
 
 class AppDescDesktop extends StatelessWidget {
@@ -15,10 +13,10 @@ class AppDescDesktop extends StatelessWidget {
         mainAxisSize: MainAxisSize.max,
         mainAxisAlignment: MainAxisAlignment.center,
         crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          const AppDescText(),
-          UIHelper.horizontalSpace(100),
-          const AppPreviewImage(),
+        children: const [
+          AppDescText(),
+          // UIHelper.horizontalSpace(100),
+          // const AppPreviewImage(),
         ],
       ),
     );

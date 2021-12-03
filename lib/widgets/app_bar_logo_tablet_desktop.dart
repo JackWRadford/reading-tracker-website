@@ -21,7 +21,7 @@ class AppBarLogoTabletDesktop extends StatelessWidget {
         UIHelper.horizontalSpaceSmall(),
         //app title
         const Text(
-          'Fluidify',
+          'Turn',
           style: textLargeStyle,
           textAlign: TextAlign.start,
         ),

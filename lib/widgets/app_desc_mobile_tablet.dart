@@ -1,7 +1,5 @@
-import 'package:reading_tracker_site/shared/ui_helpers.dart';
 import 'package:reading_tracker_site/shared/ui_size_value.dart';
 import 'package:reading_tracker_site/widgets/app_desc_text.dart';
-import 'package:reading_tracker_site/widgets/app_preview_image.dart';
 import 'package:flutter/material.dart';
 
 class AppDescMobileTablet extends StatelessWidget {
@@ -15,10 +13,10 @@ class AppDescMobileTablet extends StatelessWidget {
         mainAxisSize: MainAxisSize.min,
         mainAxisAlignment: MainAxisAlignment.start,
         crossAxisAlignment: CrossAxisAlignment.center,
-        children: [
-          const AppDescText(),
-          UIHelper.verticalSpace(100),
-          const AppPreviewImage(),
+        children: const [
+          AppDescText(),
+          // UIHelper.verticalSpace(100),
+          // const AppPreviewImage(),
         ],
       ),
     );

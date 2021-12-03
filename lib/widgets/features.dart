@@ -21,34 +21,28 @@ class Features extends StatelessWidget {
         minSpacing: 1,
         children: const [
           FeatureItem(
-            title: 'Hydration Reminders',
+            title: 'Track Reading Sessions',
             desc:
-                'Simple notification reminders at intervals throughout your day to remind you to stay hydrated.',
+                'Record reading time as you read and log the number of pages read',
           ),
           FeatureItem(
-            title: 'Goal Streaks',
-            desc:
-                'Streaks can help you create a habit out of drinking more fluid and staying hydrated.',
+            title: 'Save Notes and Quotes',
+            desc: 'Add notes and quotes as you read to view later',
           ),
           FeatureItem(
-            title: 'Intake Analytics',
+            title: 'Add Books Quickly',
             desc:
-                'Analytics to show your fluid intake, including: water intake over time, most consumed types of drinks and average water intake per day.',
+                'Either scan a book\'s barcode, search for a book online or add manually',
           ),
           FeatureItem(
-            title: 'Absorbed Water Coefficients',
+            title: 'Sort your Library',
             desc:
-                'Rough estimates of the percentage of absorbed water in different drink types allows for more accurate hydration tracking.',
-          ),
-          FeatureItem(
-            title: 'Many Different Drink Types',
-            desc:
-                'There are over 100 different drink types supported and more coming soon, to help you track what your drinking.',
+                'Sort books by \'reading\', \'to read\', \'finished\' or add them to a custom shelf',
           ),
           FeatureItem(
             title: 'More Features to Come Soon',
             desc:
-                'Fluidify is still being actively developed and added to. Future updates include: home screen widgets, better notifications and HealthKit support.',
+                'Turn is still being actively developed and added to. Future updates include: home screen widgets, goals, notifications and more.',
           ),
         ],
       ),

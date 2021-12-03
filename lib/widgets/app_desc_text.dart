@@ -18,20 +18,21 @@ class AppDescText extends StatelessWidget {
             UIHelper.verticalSpace(50),
             //title
             Text(
-              'Stay Hydrated',
+              'Read More!',
               style: textExtraLargeStyle.copyWith(color: mainBlue),
               textAlign: TextAlign.start,
             ),
             UIHelper.verticalSpaceLarge(),
             //subtitle
             const Text(
-              'Benefit from better sleep, cognition and mood, by tracking your fluid intake and staying hydrated with reminders, analytics and more!',
+              'Regular reading can improve brain connectivity, increase your vocabulary and comprehension, reduces stress and help fight depression symptoms.',
               style: textMediumStyle,
               textAlign: TextAlign.start,
             ),
             UIHelper.verticalSpaceMedium(),
             Row(
               children: [
+                //TODO update iOS and Android store links
                 const ImageLink(
                   url: 'https://apps.apple.com/gb/app/fluidify/id1574540383',
                   imagePath: 'assets/appStoreBtn.png',
