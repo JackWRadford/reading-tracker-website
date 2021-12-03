@@ -40,9 +40,13 @@ class Features extends StatelessWidget {
                 'Sort books by \'reading\', \'to read\', \'finished\' or add them to a custom shelf',
           ),
           FeatureItem(
+            title: 'Dark Mode',
+            desc: 'Enjoy tracking your reading at day or night with dark mode',
+          ),
+          FeatureItem(
             title: 'More Features to Come Soon',
             desc:
-                'Turn is still being actively developed and added to. Future updates include: home screen widgets, goals, notifications and more.',
+                'Future updates include: home screen widgets, goals, notifications and more.',
           ),
         ],
       ),

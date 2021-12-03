@@ -12,7 +12,7 @@ const Color myYellow = Color(0xfff1c40f);
 const Color myGreen = Color(0xff2ecc71);
 
 // const Color mainBlue = Color(0xff3498db);
-const Color mainBlue = Color(0xff00a8ff); //current
+const Color mainBlue = Color(0xfff1c40f); //current
 // const Color mainBlue = Color(0xff62D0ED);
 
 const Color myPurple = Color(0xff9b59b6);
